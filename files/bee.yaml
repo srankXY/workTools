@@ -1,0 +1,40 @@
+full-node: true
+swap-endpoint: wss://goerli.infura.io/ws/v3/f0b22789975c489992b9002dc9078649
+resolver-options: ["https://mainnet.infura.io/v3/f0b22789975c489992b9002dc9078649"]
+db-open-files-limit: 2000
+nat-addr: public-addr:1634
+api-addr: 127.0.0.1:1633
+p2p-addr: 0.0.0.0:1634
+debug-api-enable: true
+debug-api-addr: 127.0.0.1:1635
+password-file: /var/lib/bee/password
+clef-signer-enable: true
+clef-signer-endpoint: /var/lib/bee-clef/clef.ipc
+welcome-message: "168node bzz-p2p-port"
+data-dir: /bzz/1634/data
+bootnode:
+  - /ip4/172.21.99.94/tcp/1634/p2p/16Uiu2HAmMS83XQNB9aBu2JiPxt15zSZvdWWjxkuw6f7dLn5R81Bq
+  - /ip4/18.141.24.67/tcp/8001/p2p/16Uiu2HAmPqat9Hzo7ZCv8rECtFd5Q7BQnESSgWnKWZKuedGd6P34
+  - /ip4/18.141.24.67/tcp/8011/p2p/16Uiu2HAmPX5vid6m2NePnqNHKkRPK3urBWAKxvfAFzvHTLgEugag
+  - /ip4/18.141.24.67/tcp/8021/p2p/16Uiu2HAm9c4QD72neKnoVRy221NtedxGJW4wyV6Jx94NDhFqF7cA
+  - /ip4/18.141.24.67/tcp/8031/p2p/16Uiu2HAm6o2ZDmg9oXX45jen2T9R3HMxjMvewqGPCoKa9oQdH4rn
+  - /ip4/18.141.24.67/tcp/8041/p2p/16Uiu2HAkx6nxdLaXAfjMiW4HhfdFRZoCf2ATJqL52R4NwTS7cMcz
+  - /ip4/18.141.24.67/tcp/8051/p2p/16Uiu2HAmEHExvzFAwBNKuE5q7w4JF3Kd6xaT3im4N8e66PdtHZu2
+  - /ip4/18.141.24.67/tcp/8061/p2p/16Uiu2HAmHf1tp9FN9HTgnUNdQD6cH4pFC4MiMWgtpsYTRVWeZNWu
+  - /ip4/18.141.24.67/tcp/8071/p2p/16Uiu2HAm9o4YxpmjuukNDK62b9b5hcrZRjp2udAArwPd1cN3KwY4
+  - /ip4/18.141.24.67/tcp/8081/p2p/16Uiu2HAmSPkv8XJ6sUy9tZYHHaj4iLEfmJuf8nCL786VLm4ovh5v
+  - /ip4/18.141.24.67/tcp/8091/p2p/16Uiu2HAmDkYSKNWLh6oqehKAGLCYoj61PHn5W2CW3bgBtTMRUESX
+  - /ip4/18.141.24.67/tcp/8101/p2p/16Uiu2HAm3iKppt63HZWV2TkM2SS24LfFvHu43a5JNGyY9EuZDRdk
+  - /ip4/18.141.24.67/tcp/8111/p2p/16Uiu2HAm2zdN45NUqJpfMg1MTFjTeNtLkMUwmSjLjJoqBtGx26Hh
+  - /ip4/18.141.24.67/tcp/8121/p2p/16Uiu2HAkyK1aMej21wF6Rhc3JRK6BkXzyWPXER2jVKrZjkTLTW9s
+  - /ip4/18.141.24.67/tcp/8131/p2p/16Uiu2HAmV9w352qEzy9mMWYUThn7yRB5t2RFfgnmxTjcruSA87Ht
+  - /ip4/18.141.24.67/tcp/8141/p2p/16Uiu2HAmVFzsPzEGHqemwBTjTtiuS3fk2oHof8GSbXXGMwh8aoDb
+  - /ip4/18.141.24.67/tcp/8151/p2p/16Uiu2HAkzB2MWhixAq35w9yXdW7Ke7sqdiNHvYSRZwTcMvGXchoM
+  - /ip4/18.141.24.67/tcp/8201/p2p/16Uiu2HAmUKSQx3c1yxXah4F4a7STQTtRsHQkrmVBeZjhz9pFCcvy
+  - /ip4/18.141.24.67/tcp/8301/p2p/16Uiu2HAkwanBD8tkUuF6pU86UQsBS5yDAd4Z6BzsDNZ8sAzsSegW
+  - /ip4/18.141.24.67/tcp/8401/p2p/16Uiu2HAkzUNjsgJ2pWL12An9onrv4YAxoyGiFmhQfLyVnDobEMPZ
+  - /ip4/18.141.24.67/tcp/8501/p2p/16Uiu2HAm3GGsHrTfQb4zTtK6byVgS4gYxvvnbFP16DjwnPxP8WYS
+  - /ip4/18.141.24.67/tcp/8601/p2p/16Uiu2HAm2HBiK6hk49x8XdqGezBwT2g77enEWd6EPoBAYHKn5pcT
+  - /ip4/18.141.24.67/tcp/8701/p2p/16Uiu2HAm5gRwLiG3s1Zy64yd4dvbWaivbTwfCny46Xe7hPUkwyhQ
+  - /ip4/18.141.24.67/tcp/8801/p2p/16Uiu2HAm2m2MQ8x8eAcU3KeiPU3nTWJoU4eWSgsseBbyjfkeZeVq
+  - /ip4/18.141.24.67/tcp/8901/p2p/16Uiu2HAmR4rshai5wCHURKuqfNW5udjRgN1kDA7u34HaK9iqaPNf
